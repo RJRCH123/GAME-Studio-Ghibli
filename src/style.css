@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
+
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: #b8c6db;
+    background-image: url("./img/Totoro-Bosque.png");
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow-y: scroll;
+    margin: 0;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    background: rgba(0, 0, 0, 0.993);
+}
+
+::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0.795);
+}
+
+::-webkit-scrollbar-thumb {
+    background: #0f5f5faf;
+    border-radius: 10px;
+}
+
+
+.contenedor {
+    padding: 0px;
+    margin: 30px 50px 20px 50px;
+    width: 600px;
+    height: 400px;
+    background-color: rgb(255, 255, 255, 50%); 
+    border-radius: 15px;
+    box-shadow: 5px 3px 20px 13px rgb(18 24 32 / 80%);
+    border: 5px dashed rgba(0, 0, 0, 0.541);
+}
+
+#player {
+    width: 30%;
+    position: absolute;
+    transition: all 0.3s;
+}
+
+.totoro{
+    width: 20%;
+}
+
+.pointer {
+    background-color: rgba(7, 7, 7, 0.753);
+    height: 30px;
+    margin-top: 15px;
+    color: aliceblue;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px 0;
+} 
+
+.Reload {
+    text-align: center;
+}
+
+.Reload input {
+    font-size:10pt;
+    width:200px;
+    height:30px;
+    background:#011414d5;
+    color:#ffffff;
+    cursor:pointer;
+    border-radius: 20px;
+}
+
+
