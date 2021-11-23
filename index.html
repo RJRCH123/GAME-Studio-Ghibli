@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GAME:Totoro</title>
+    <link rel="shortcut icon" type="image/x-icon" href="./img/favicon/Totoro1.ico">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    
+    <section>
+        <div class="Box1">
+            <div class="contenedor pointer">
+                <span id="puntos"></span>
+                <span id="ned"></span>
+                <span id="tiempo"></span>
+            </div>
+        </div>
+        
+        <div class="contenedor">
+            <div id="player"><img class="totoro" src="./img/Totoro1.png" alt=""></div>
+        </div>
+        <div class="Reload">
+            <input type="button" value="Play Again" onclick="location.reload()"/>
+        </div>
+    </section>
+    
+<script src="./index.js" ></script>
+<script>
+    function actualizar(){location.reload(true);}
+    setInterval("actualizar()",60000);
+</script> 
+</body>
+</html>
